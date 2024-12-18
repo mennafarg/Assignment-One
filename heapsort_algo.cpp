@@ -44,3 +44,23 @@ int main()
 
 
 }
+/*
+Max-Heapify:
+Time Complexity: 
+𝑂(logN)
+
+Build Max-Heap:
+Time Complexity: 
+O(n).
+
+Heap-Sort:
+Time Complexity: 
+O(nlogn).
+
+Building the max-heap: 
+O(n).
+
+Space Complexity: 
+O(1) (in-place sorting algorithm).
+
+*/
