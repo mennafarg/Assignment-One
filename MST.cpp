@@ -105,3 +105,25 @@ int main()
 
     return 0;
 }
+/*
+Edge Sorting:
+Sorting all edges takes 
+O(ElogE)
+
+Union-Find Operations:
+The Union-Find structure performs 
+O(E) operations, where each Find and Union operation is nearly 
+O(1) 
+Therefore, the total cost for Union-Find operations is 
+O(Eα(V)),
+
+Total Time Complexity:
+Dominated by sorting: 
+O(ElogE).
+
+ the time complexity is 
+O(ElogV).
+
+Space Complexity:
+O(V+E) for storing the graph and the Union-Find data structure.
+*/
